@@ -10,6 +10,9 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
+import django_heroku
+django_heroku.settings(locals())
+
 from pathlib import Path
 import os
 from decouple import config, Csv
