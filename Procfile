@@ -1,1 +1,1 @@
-web: python articles/manage.py runserver 0.0.0.0:$PORT
+web: cd articles && python manage.py runserver 0.0.0.0:$PORT
